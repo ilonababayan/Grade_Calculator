@@ -1,0 +1,37 @@
+#header {
+  background-color:rgb(222, 165, 164);
+  color: black;
+  padding: 10px;
+  text-align: center;
+  margin: 0px;
+  }
+
+#studentinfo {
+ background-color: rgb(242, 220, 221);
+ color: black;
+ padding: 10px;
+ margin: 0px;
+ text-align: center;
+ }
+
+#studentGrades {
+ background-color: rgb(207, 167, 176);
+ margin: 0px;
+ width: 100%;
+ }
+
+#currentgrade {
+  background-color: rgb(240, 216, 221);
+  font-size: 120%;
+  margin: 0px;
+  padding: 30px;
+}
+
+#currentgrade label {
+  font-weight: bold;
+}
+
+#currentgrade span {
+  font-weight: bolder;
+  font-style: italic;
+}
