@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <script src="script.js"></script>
+    <h1 id="header"> Student</h1>
+
+    <div id="studentinfo">
+      <br>Ilona Babayan</br>
+      <br>ID:A01234567</br>
+    </div>
+
+    <table id="studentGrades">
+      <tr>
+        <th>Methods of evaluation</th>
+        <th>Percantage</th>
+        <th>Grade</th>
+      </tr> 
+      <tr>
+        <td>Homework</td>
+        <td><span id="homeworkpercent">20</span>%</td>
+        <td>
+          <input type="text" id="hwGrade"
+          value="" onkeyup="checkGrade(event)">
+        </td>
+        
+      </tr>
+      <tr>
+        <td>Quiz</td>
+        <td> <span id="quizpercent">20</span>%</td>
+        <td><input type="text" id="quizGrade"
+        value="" onkeyup="checkGrade(event)">
+        </td>
+      </tr>
+      <tr>
+        <td>Project 1</td>
+        <td><span id="project1percent">30</span>%</td>
+        <td><input type="text" id="P1Grade"
+        value="" onkeyup="checkGrade(event)">
+        </td>
+      </tr>
+      <tr>
+        <td>Project 2</td>
+        <td><span id="project2percent">30</span>%</td>
+        <td><input type="text" id="P2Grade"
+        value="" onkeyup="checkGrade(event)">
+        </td>
+      </tr>
+    </table>
+    <div>
+      <button onclick="calculateGrade()" id=currentgradebutton>Calculate Current Grade</button>
+    </div>
+    <div id="currentgrade">
+      <label>Current grade: </label>
+      <span id="currentGradeValue">98.5</span>
+    </div>
+
+  </body>
+
+</html>
